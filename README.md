@@ -2,17 +2,25 @@
 
 Step 1:
 ```
+copy .env.example -> .env
+```
+Step 2:
+```
 composer install
 ```
 Step 2:
 ```
-npm install
+php artisan migrate
 ```
 Step 3:
 ```
-npm run build
+npm install
 ```
 Step 4:
+```
+npm run build
+```
+Step 5:
 ```
 php artisan serve
 ```

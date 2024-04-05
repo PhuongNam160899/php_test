@@ -63,7 +63,7 @@
   >
     Next
   </el-button>
-  <el-button style="margin-top: 12px;float: right""
+  <el-button style="margin-top: 12px;float: right"
              v-show="!is_show"
              @click="submit"
   >
